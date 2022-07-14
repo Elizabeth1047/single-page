@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  width: 80%;
+  margin: auto; 
+  align-items: center;
+  background-color: rgb(205, 225, 231);
+}
+
+
+ nav{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5px;
+}
+.desktop{
+display: none;
+}
+.mobile ul{
+
+  list-style-type: none;
+  display: none;
+  height: 100vh;
+  
+
+}
+.mobile ul li{
+  display: block;
+
+text-align: center;
+padding: 10%;
+  
+
+}
+.mobile ul button{
+ background-color: aqua;
+padding: 3% 10%;
+margin: auto 100px;
+border-radius: 8px;
+border: 1px solid aqua;
+
+  
+
+}
+
+main .learnmore-earlyaccess{
+ border: 1px solid blueviolet;
+ margin: 50px auto;
+ background-color:  blueviolet;
+ border-radius: 50px;
+
+}
+main .learnmore-earlyaccess p{
+ padding: 10px 40px;
+ color: white;
+
+}
+main .img-section img{
+ display: none;
+
+}
+
+main .community-building h1{
+ font-size:xx-large  ;
+ color: blueviolet;
+margin: 30px auto;
+}
+main .community-building p{
+ font-size:20px  ;
+ line-height: 30px;
+ 
+}
+main .community-building input{
+ width: 100%;
+ padding: 5%;
+ 
+}
+main .community-building input{
+ width: 100%;
+ padding: 5%;
+ margin: 10px auto;
+ border-radius: 5px;
+ border: 1px solid white ;
+ 
+}
+main .community-building button{
+ width: 100%;
+ padding: 5%;
+ background-color: blueviolet;
+ color: white;
+ border: 1px solid blueviolet ;
+border-radius: 5px;
+margin: 10px auto;
+ 
+}
+footer p{
+margin: 10px auto;
+ color: rgb(46, 44, 44);
+ font-size: 20px;
+}
+@media (min-width:600px) {
+  main .learnmore-earlyaccess{
+ border: 1px solid blueviolet;
+ margin: 50px auto;
+ background-color:  blueviolet;
+ border-radius: 50px;
+ display: inline-block; 
+
+}
+  main .learnmore-earlyaccess p{
+ padding: 10px 20px;
+ color: white;
+ 
+}
+  .desktop{
+display: none;
+
+}
+  main .community-building input{
+ width: 190px;
+padding: 3%;
+}
+main .community-building button{
+ width: 110px;
+ margin: auto 10px;
+ padding: 3% ;
+ font-size: 10px;
+
+}
+footer p{
+margin-top: 40px;
+ 
+}
+
+
+    
+  }
+  @media (min-width:1024px) {
+    main .community-building input{
+ width: 60%;
+
+}
+main .community-building button{
+ width: 30%;
+ font-size: 10px;
+
+}
+footer p{
+margin-top: 40px;
+ 
+}
+  .desktop{
+display: contents;
+
+ 
+}
+.mobile{
+display: none;
+
+ 
+}
+ .navi{
+display: flex;
+justify-content: space-between;
+
+}
+
+.desktop nav ul{
+list-style-type: none;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+align-items: center;
+gap: 1em;
+
+ 
+}
+
+.btn{
+
+background-color: blueviolet;
+border-radius: 8px;
+border: 1px solid blueviolet;
+padding: 10px 15px;
+white-space: nowrap;
+
+
+ 
+}
+main {
+ display: grid;
+ grid-template-columns: 3fr 2fr;
+
+}
+main .img-section img{
+ display: block;
+ width: 100%;
+
+}
+footer p{
+margin-top: 20px;
+ 
+}
+main {
+margin-bottom: 0px;
+ 
+}
+
+ 
+ 
+
+
+    
+  }
+
+
+
+
+
+
+
